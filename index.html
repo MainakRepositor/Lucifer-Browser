@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer</title>
+    <link rel="icon" href="./images/favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a class="link" href="">Email</a>
+                </li>
+                <li>
+                    <a class="link" href="">Services</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <section class="content-section">
+        <div class="content-wrapper">
+            <img class="logo-img" src="./images/logo.png" alt="Google Logo Image">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input id="search-input" class="search-input" type="text">
+              
+            </div>
+            <div class="search-btns">
+                <button class="search-btn" onclick="search();">Search</button>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+    const options = {
+        bottom: '12px', // default: '32px'
+        right: 'unset', // default: '32px'
+        left: '12px', // default: 'unset'
+        time: '0.5s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: true, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true
+      }
+      
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+</script>
+</body>
+</html>
